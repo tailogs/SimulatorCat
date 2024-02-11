@@ -1,6 +1,6 @@
 # Симулятор консольного кота
 
-![image](https://github.com/tailogs/SimulatorCat/assets/69743960/9214b88b-6b19-459f-a9cb-ab8359b5bf92)
+![image](https://github.com/tailogs/SimulatorCat/assets/69743960/09aa3d43-d271-49f8-a0c5-bacf5b92659b)
 
 
 Для запуска скачайте один из релизов или скомпилируйте сам проект используя комманды ниже.
