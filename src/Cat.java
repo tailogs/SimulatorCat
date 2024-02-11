@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Cat {
     Random random = new Random();
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in, "Cp866");
     int health = 100; // здоровье
     int satisfied = 100; // удовлетворенный
     int rest = 100; // отдохнул
@@ -51,6 +51,8 @@ public class Cat {
             if (random.nextBoolean())
                 voice();
 
+            clearConsole();
+
             switch (c) {
                 case 1:
                     pet();
@@ -73,7 +75,6 @@ public class Cat {
                 default:
                     System.out.println("[Выбранный пункт отсутствует]");
             }
-            clearConsole();
             livePet = death();
         }
     }
@@ -170,7 +171,7 @@ public class Cat {
     }
 
     public static void clearConsole() {
-        for (int i = 0; i < 30; i++)
+        for (int i = 0; i < 50; i++)
             System.out.println();
     }
 }
